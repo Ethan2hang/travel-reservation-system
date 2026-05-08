@@ -217,9 +217,8 @@ git push origin feat/your-feature
 ## Authors
 
 - **Youjie Zhang**
-- **Siting Miao**
-- **Yian Zhao**
-- **Zhiyi Liu**
+- **Kevin Wang**
+
 
 Originally developed as a database systems coursework project; now maintained as an open-source learning artifact.
 
