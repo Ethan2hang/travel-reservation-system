@@ -1,0 +1,59 @@
+# --- Build artifacts ---
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+dependency-reduced-pom.xml
+hs_err_pid*
+
+# --- IDE / editor files ---
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.eclipse/
+.project
+.classpath
+.settings/
+.factorypath
+.metadata/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# --- Maven ---
+.mvn/
+mvnw
+mvnw.cmd
+
+# --- Logs & runtime ---
+*.log
+*.log.*
+logs/
+
+# --- OS / sensitive ---
+*.env
+*.local
+secrets/
+
+# --- Submission deliverables (team-specific, not source) ---
+team06_*.jar
+team06_*.zip
+team06_*.sql
+team06_*.png
+team06_*.pdf
+team06_*.txt
+team06_*.mp4
+team06_*.mov
+team06_README.txt
+README.txt
+
+# --- Local DB credentials override ---
+# If you ever switch Db.java to read from a config file, ignore it
+db.properties
+local.properties
